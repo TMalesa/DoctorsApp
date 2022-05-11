@@ -31,7 +31,4 @@ const createDoctor = async ({ name, surname, specialisation, location, fee, pati
     return doctors;
 }
 
-// const updateDoctor=async(doctorsId,{name, surname, specialisation, location, fee, patientId, appointmentId})=>{
-//     await DoctorsModel
-// }
 module.exports = { getAllDoctors, getDoctorsById, deleteDoctorsById, createDoctor }
